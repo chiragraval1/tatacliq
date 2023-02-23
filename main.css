@@ -172,6 +172,7 @@
 }
 .one{
     width: 15%;
+    line-height: 25px;
 }
 .one a{
 
@@ -179,10 +180,11 @@
     color: black;
     font-size: 14px;
     font-weight: 100;
-    line-height: 20px;
+    line-height: 25px;
 }
 .two{
     width: 40%;
+    line-height: 25px;
 }
 .two a{
     
@@ -192,5 +194,12 @@
     font-weight: 100;
     padding-right: 10px;
     padding-right: 10px;
-    line-height: 20px;
+    line-height: 25px;
+}
+.one p{
+    font-size: 12px;
+    font-weight: 300;
+}
+.Terms{
+    padding: 20px;
 }
