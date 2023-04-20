@@ -15,19 +15,19 @@
 .header-right{
     background-color: #0000;
     width: auto;
-    padding-left: 185px;
+    padding-left: 223px;
 }
 .header-left{
     width: 85px;
     height: 55px;
     position: absolute;
+    left: 40px;
     margin: auto;
     background: url('image/logo.svg') no-repeat;
     background-size: auto 40px;
     margin-top: 20px;
     background-position: center;
     background-color: #212121;
-    /* padding-left: 50px; */
 }
 .header-top{
     width: 100%;
@@ -46,14 +46,34 @@
     display: inline-flex;
     text-align: center;
     list-style: none;
-    margin-right: 10px;
+    margin-right: 15px;
 }
 .header-top ul li a{
     text-decoration: none;
     color: aliceblue;
 }
 .header-top ul li{
-    padding-right: 20px;
+    padding-right: 30px;
+}
+.header-top ul li ul{
+    display: block;
+    width: 190px;
+    position: absolute;
+    padding: 1rem;
+    line-height: 35px;
+    display: none;
+    text-align: left;
+    font-weight: 400;
+    background-color: white;
+}
+.header-top ul li:hover ul{
+    display: block;
+}
+.login{
+    background-color: rgb(240, 16, 16);
+    border-radius: 25px;
+    width: 140px;
+    padding: 5px;
 }
 .header-bottom{
     background-color: #212121;
@@ -62,40 +82,117 @@
     font-size: large;
     text-align: center;
     justify-content: space-between;
-    line-height: 60px;
-    /* font-size: 14px; */
+    height: 60px;
     padding-right: 30px;
 
 }
 .categories{
     width: 150px;
+    line-height: 60px;
+    position: relative;
+    /* background-color: orange;     */
 }
+.categories:hover {
+    background-color: white;
+    color: black;
+}
+
+.drop{
+    position: absolute;
+    display: none;
+    max-width: 200px;
+    color: #000000;
+    line-height: 25px;
+}
+
+.drop li{
+    width: 200px;
+    padding: 1rem;
+    list-style: none;
+    display: flex;
+    background-color: white;
+    
+}
+
+.categories:hover ul{
+    display: block;
+    background-color: white;
+    color: black;
+}
+
+/* drop-2  start*/
+/* .categories ul li:hover .drop2{
+    display: inline;
+}
+.drop2{
+    position: absolute;
+    display: inline;
+    line-height: 10px;
+}
+.detaildrop{
+    position: absolute;
+    display: none;
+} */
+
+
+/*.drop-2{
+    display: none;
+} */
+
+/* drop-2  end*/
+
 .brands{
-    width: auto;
+    width: 150px;
+    line-height: 60px;
+    position: relative;
+    margin-right: 10px;
+}
+.brands:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
+.brands:hover ul{
+    display: block;
+    background-color: white;
+    color: black;
+}
+
+.like{
+    width: 100px;
+    padding-top: 17px;
+    background-color: #212121;
+    color: white;
+}
+
+.shopping{
+    width: 100px;
+    padding-top: 17px;
+    background-color: #212121;
+    color: white;
     
 }
 .search{
     display: flex;
-    height: 40px;
-    align-self: center;
+    height: 45px;
     width: 500px;
+    padding-top: 10px;
+    padding-bottom: -20px;
     border-radius: 30px;
 }
 .search-icon{
-    background-color: white;
-    border: none;
     color: #000000;
-    line-height: 40px;
     padding-left: 10px;
-    padding-bottom: 10px;
+    padding-top: 10px;
     background-color: #434343;
-    font-weight: bolde;
+    /* font-weight: bolde; */
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
 }
 .search input{
     border: none;
     width: 100%;
+    padding-top: 5px;
     color: white;
     font-size: large;
     background-color: #434343;
@@ -111,16 +208,16 @@
 .product{
     width: 100%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 }
 .product a img{
     margin-top: -4px;
-    height: 126px;
+    height: 105px;
 }
 .bank{
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     padding-top: 40px;
     padding-bottom: 40px;
     margin-top: -4px;
@@ -130,6 +227,7 @@
 .bank a img{
     border: 1px solid white;
     border-radius: 5px;
+    margin-right: 10px;
 }
 .shipping{
     width: 100%;
@@ -146,6 +244,9 @@
     justify-content: center;
     padding-bottom: 40px;    
 }
+.deels img{
+    height: 150px;
+}
 .item{
     width: 100%;
     display: flex;
@@ -156,8 +257,9 @@
     width: 235px;
     height: 320px;
     margin-left: 25px;
-    transition: 1s;
+    transition: .5s;
 }
+
 
 .item a img:hover{
     transform: scale(1.05);

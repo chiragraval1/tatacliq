@@ -1,0 +1,372 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Work Sans", Arial, sans-serif;;
+}
+.header{
+    width: 100%;
+    background: #fafafa;
+    display: flex;
+    justify-content: space-between;
+}
+.firsthead
+{
+    width: 15%;
+    background: #fafafa;
+    text-align: center;
+    padding: 20px;
+}
+.firsthead span{
+    color: blue;
+}
+.sechead{
+    width: 25%;
+    background: #fafafa;
+    display: flex;
+}
+.sechead p{
+    padding: 20px 5px;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    margin: 20px 5px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+    background: #fff;
+    color: blue;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+
+
+
+/* nav star  */
+
+.nav{
+    width: 100%;         
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    /* border-bottom: 2px solid black; */
+}
+.nav ul{
+    display: flex;
+    padding: 25px;
+    list-style: none;    
+}
+.nav ul li a{
+    padding-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+.app{
+    padding: 10px;
+}
+.app button{
+    padding: 15px 20px;
+    color: white;
+    background: #ff8000;
+    cursor: pointer;
+    border: none;
+    margin-right: 40px;
+    border-radius: 25px 25px 25px 25px;
+}
+ 
+/* nav end  */
+
+/* poster start  */
+
+
+.poster
+{
+    width: 100%;
+    height: 500px;
+    background: url(image_dr/bg_1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    /* background-attachment: fixed; */
+    /* background-position: 0px 80px; */
+}
+.contain{
+    position: absolute;
+    top: 190px;
+    left: 44px;
+}
+.contain h1{
+    font-size: 60px;
+}
+.contain h1 span {
+    color: blue;
+
+}
+.contain p{
+    line-height: 1.5;
+
+}
+.contain button{
+    
+    padding: 20px 15px;
+    color: white;
+    width: 180px;
+    background: #ff8000;
+    cursor: pointer;
+    border: none;
+    margin-right: 40px;
+    border-radius: 30px 30px 30px 30px;
+}
+/* poster wnd  */
+
+
+.card{
+    width: 100%;
+    height: 300px;
+    /* transform: translatey(-300px); */
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+.one{
+    width: 25%;
+    height: 300px;
+    border: 1 px solid pink;
+    margin: auto;
+    padding: 0px 20px;
+    background: #0c75fb;
+}
+.alt{
+    background: #2f89fc;
+}
+.upper{
+    height: 80px;
+    width: 80px;
+    margin: 20px 80px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 25px 0px;
+    font-size: 30px;
+    background: rgba(220, 218, 218, 0.3);
+}
+.lower{
+    text-align: center;
+    line-height: 1.8;
+    font-family: sans-serif;
+}
+
+/* about start  */
+
+.about
+{
+    width: 100%;
+    display: flex;
+
+}
+.aboutleft{
+    /* width: 650px; */
+    width: 40%;
+    height: 750px;
+    background: url(image_dr/about.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 50px;
+}
+.aboutright{
+    width: 60%;
+    /* background: gray; */
+    padding: 60px 60px;
+}
+.aboutright h4, .aboutright h2, .aboutright p{
+    padding: 20px 0px;
+    line-height: 1.8;
+}
+
+
+
+.aboutcare{
+    width: 100%;        }
+.care{
+    width: 50%;
+    height: 150px;
+    /* border: 1px solid black; */
+    display: flex;
+
+}
+.caremain{
+    display: flex;
+    margin: 20px 10px;
+}
+.care1{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    /* background: green; */
+    text-align: center;
+    line-height: 50px;
+    color: #0c75fb;
+    border: 2px solid blue;
+}
+.care2{
+    margin-left: 20px;
+}
+
+
+
+
+/* free start  */
+.free{
+    width: 100%;
+    height: 200px;
+    background: url(image_dr/bg_3.jpg), rgba(0, 0, 100, .8);
+    background-size: 100% 100% ,100% 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.free button{
+    height: 50px;
+    width: 200px;
+    /* margin-left: 200px ; */
+    padding: 20px 15px;
+    color: white;
+    background: #ff8000;
+    cursor: pointer;
+    border: none;
+    border-radius: 30px 30px 30px 30px;
+}
+
+/* free end  */
+
+/* clinical :start  */
+.clinical{
+    width: 100%;
+    height: 350px;
+    /* background: yellowgreen; */
+    text-align: center;
+    padding-top: 100px;
+}
+.clinical span{
+    /* padding-bottom: 20px; */
+
+}
+.clinical h1{
+    padding: 10px 30px;
+    line-height: 1.5;
+}
+.clinical p{
+    padding-top: 20px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+
+/* second navigation start  */
+.secnav{
+    width: 100%;
+    height: 750px;
+    position: relative;
+}
+
+.secnav ul{
+    display: flex;
+    padding: 0px 50px;
+
+}
+.secnav ul li{
+    list-style: none;
+    background: #dedfe0;
+    width: 20%;
+}
+.spe{
+
+    padding: 30px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.secnav ul li:hover{
+    background: #0c75fb;
+    color: #fafafa;
+}
+
+
+
+.nuro1
+{
+    width: 92%;
+    display: flex;
+    background: #f8f9fa;
+    position: absolute;
+    color: black !important;
+    margin: 0px 50px;
+    left: 0;
+    display: none;
+}
+.nuro1imp{
+    display: flex;
+}
+.nuro:hover .nuro1{
+    display: flex;
+}
+.nuroleft{
+    
+    width: 68%;
+    padding: 60px 60px;
+}
+.nuroleft h4, .nuroleft h2, .nuroleft p{
+    padding: 20px 0px;
+    line-height: 1.8;
+}
+.nuroleft .aboutcare .caremain .care .care1{
+    background: #0c75fb;
+    border: none;
+    color: white;
+}
+.nuroright{
+    width: 32%;
+    height: 600px;
+    /* background: url(image_dr/dept-1.jpg); */
+    background-size: 90% 90%;
+    background-position: -20px 35px;
+    background-repeat: no-repeat;
+    margin-left: 50px;
+}
+.one{
+    background: url(image_dr/dept-1.jpg);    
+    background-size: 90% 90%;
+    background-position: -20px 35px;
+    background-repeat: no-repeat;
+
+}
+.two{
+    background: url(image_dr/dept-2.jpg);
+    background-size: 90% 90%;
+    background-position: -20px 35px;
+    background-repeat: no-repeat;
+
+}
+.three{
+    background: url(image_dr/dept-3.jpg);
+    background-size: 90% 90%;
+    background-position: -20px 35px;
+    background-repeat: no-repeat;
+
+}
+.four{
+    background: url(image_dr/dept-4.jpg);
+    background-size: 90% 90%;
+    background-position: -20px 35px;
+    background-repeat: no-repeat;
+
+}
+.five{
+    background: url(image_dr/dept-5.jpg);
+    background-size: 90% 90%;
+    background-position: -20px 35px;
+    background-repeat: no-repeat;
+
+}
