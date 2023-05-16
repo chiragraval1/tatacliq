@@ -1,0 +1,249 @@
+@media (max-width:550px) {
+   
+    
+    /* header start */
+    
+    header{
+        display: grid;
+        grid-template-columns: 6fr 4fr;
+        grid-template-rows: 80px 80px;
+    }
+    .menuoption{
+        display: block;
+        font-size: 26px;
+        padding-top: 20px;
+    }
+    .header1 .menu{
+        display: none;
+
+    }
+    .logo{
+        margin-left: 20px;
+    }
+    .subcription{
+        padding-left: 100px;
+    }
+    .register{
+        left: -250px;
+    }
+    
+    /* header end  */
+    
+    /* section start */
+    
+    section{
+        padding-left: 0px;
+        padding-top: 100px;
+    }
+
+    section .bottom{
+        margin-left: 0px;
+    }
+
+    .bottom2{
+        display: block;
+        width: 100%;
+        height: 240px;
+    }
+    .bottom2 input{
+        width: 100%;
+        margin: 0px 0px;
+    }
+    .bottom2 .sear{
+        width: 100%;
+    }
+    .bottom2 span{
+        width: 100%;
+        text-align: center;
+        padding-left: 33%;
+        line-height: 30px;
+    }
+    /* section end */
+    
+    
+    /* recent start  */
+    
+    .recent{
+        
+    }
+    .recent_top{
+        display: block;
+    }
+    .house{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .house{
+        margin: 0px 0px;
+    }
+    .logos{
+        display: grid;
+        grid-template-columns: 1fr 1fr 2fr;
+        column-gap: 7px;
+    }
+
+    .buy_bottom{
+        margin-left: 90px;
+
+    }
+    /* recent end  */
+
+    
+    /* looking start  */
+
+    /* .looking{
+        display: block;
+        padding: 50px 20px;
+        height: 600px;
+        text-align: center;
+     } */
+
+
+     .looking{
+        height: 100vh;
+        /* position: relative;
+        overflow: hidden; */
+    }
+    .looking_2{
+        position: absolute;
+        left: 0px;
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 40px 10px;
+        color: white;
+        background: url(../images/skyscraper.jpg);
+        background-size: 100% 100%;
+        /* background-attachment: fixed; */
+    }
+
+
+    .l_left{
+        display: block;
+        margin: 30px 20px;
+     }
+
+    /* looking end  */
+
+
+    /* popular start  */
+    .popular{
+
+
+    }
+    .sold{
+        display: block;
+     }
+    .sold2{
+        display: block;
+    }
+    .s_bottom2{
+        margin-top: 50px;
+        padding: 15px;
+        color: white;
+    }
+    .sold3_2{
+        margin: 20px 0px;
+    }
+    .sold1{
+        margin-top: 20px;
+    }
+
+    /* popular end  */
+
+     /* register start  */
+
+    .regi{
+        display: block;
+        text-align: center;
+        margin: auto;
+        padding: 30px;
+    }
+    .regi h1{
+        line-height: 45px;
+    }
+    .regi button{
+        margin: 0px;
+    }
+
+
+
+    /* register start   */
+
+        
+    /* register start   */
+
+
+    .why1 {
+        text-align: center;
+    }
+    .why2{
+        display: block;
+    }
+    .trust{
+        display: block;
+     }
+
+    /* register end */
+
+
+    
+    /* latest end  */
+
+
+    .latest_main{
+        display: block;
+    }
+
+    /* latest end  */
+
+
+     /* partner start  */
+
+        .partner_logos{
+            display: block;
+        }
+        .a{
+            margin: 60px;
+        }
+        /* parnter end  */
+
+        
+
+    /* footer start  */
+
+    .footer_content{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 150px 180px 180px 170px;
+        padding: 20px;
+       }
+    .fcontent button{
+        width: 95%;
+        margin: 5px auto;
+    }
+    .fcontent input{
+        width: 95%;
+        margin: 5px auto;
+    }
+    
+    .wish{
+        display: none;
+    }
+    footer ul {
+        display: none;
+
+    }
+    .bottom{
+        display: block;
+        text-align: center;
+        padding: 10px;
+    }
+    .bottom_r{
+        padding: 30px;
+    }
+
+
+
+}
+
