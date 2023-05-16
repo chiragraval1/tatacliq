@@ -300,6 +300,7 @@ section .buy a{
     display: grid;
     margin-left: 0px;
     padding: 20px 5px;
+    column-gap: 20px;
     grid-template-columns: 3fr 5fr 1.5fr 1fr;
 }
 .bottom2 input{
@@ -313,18 +314,13 @@ section .buy a{
 .bottom2 .sear:hover{
     background: green;
 }
-.bottom2 span{
-    letter-spacing: 1px;
-    margin-top: 0;
-    padding-left: 10px;
-    line-height: 18px;
-    padding-top: 10px;
-}
+
 /* section end */
 
 /* recent start  */
 
 .recent{
+    padding-top: 60px;
     background: lightgray;
     
 }
@@ -333,6 +329,9 @@ section .buy a{
     grid-template-columns: 8fr 2.5fr;
     align-items: center;
     padding-left: 70px;
+    padding-bottom: 35px;
+}
+.recent_top h1{
 }
 .all{
     display: grid;
@@ -351,6 +350,7 @@ section .buy a{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin: 0px 30px;
+    row-gap: 20px;
 }
 
 .house_one{
@@ -500,6 +500,7 @@ section .buy a{
     grid-template-columns: 8fr 2fr;
     padding-bottom: 10px;
     border-bottom: 1px solid ;
+    padding: 10px 0px 10px 0px;
 }
 .price_change{
     font-size: 18px;
@@ -520,6 +521,7 @@ section .buy a{
     display: grid;
     grid-template-columns: 1fr 1fr 2fr 1fr;
     column-gap: 7px;
+    padding: 10px 0px 10px 0px;
 }
 .logos p{
     padding: 2px;
@@ -527,6 +529,7 @@ section .buy a{
 
 .blue{
     color: black;
+    padding: 10px 0px 10px 0px;
 }
 .house_one:hover .blue{
     color: rgba(53,142,225,1);

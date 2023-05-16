@@ -32,22 +32,31 @@
     /* section start */
     
     section{
-        padding-left: 0px;
-        padding-top: 100px;
+        height: 820px ;
+        background: rgba(48,52,65,0.75) url(../images/grid_2_box_bg.jpg);
+        background-size: auto;
+        background-position: center;
     }
 
     section .bottom{
-        margin-left: 0px;
+        display: flex;
+        margin: 240px 0px -10px -80px;
+    
     }
 
     .bottom2{
         display: block;
-        width: 100%;
+        width: 115%;
+        margin: 5px 0px -10px -80px;
         height: 240px;
     }
     .bottom2 input{
         width: 100%;
         margin: 0px 0px;
+    }
+    .bottom2 p{
+        text-align: center;
+        padding-top: 20px;
     }
     .bottom2 .sear{
         width: 100%;
@@ -65,6 +74,9 @@
     
     .recent{
         
+    }
+    .all{
+        padding: 10px 50px;
     }
     .recent_top{
         display: block;
