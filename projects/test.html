@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .main{
+            height: 400px;
+            width: 400px;
+            margin: 100px auto;
+            background-image: url(glowing-img/product-10-3-400x533.jpg);
+            border: 1px solid #000;
+            position: relative;
+        }
+        button{
+            margin: 50px;
+            padding: 5px;
+            background:black;
+            color: white;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 1;
+        }
+        .before{
+            height: 400px;
+            width: 400px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color:rgba(0,0,0,0.5);
+            display: none;
+            transition: .5s;
+
+
+        }
+        .main:hover .before{
+            display: block;
+
+
+        }
+     
+    </style>
+</head>
+<body>
+
+
+   <div class="main">
+    <button>jignesh pithiya</button>
+    <div class="before"></div>
+    
+
+   </div>
+    
+</body>
+</html>

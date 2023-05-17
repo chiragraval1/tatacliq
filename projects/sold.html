@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+
+
+.sold{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px 70px;
+    column-gap: 40px;
+}
+.sold:hover{
+}
+.sold1{
+    height: 250px;
+    background: url(../images/listing_1.jpg);
+    background-size: 110% 110%;
+    background-position: center;
+    position: relative;
+}
+.bg2{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.4);
+    opacity: 0.4;
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+.sold1:hover .bg2 {
+    display: block;
+}
+.popular_content{
+    z-index: 2;
+}
+.sold1_1{
+    background: url(../images/listing_2.jpg);
+    background-size: 120% 150%;
+    background-position: center;
+}
+.s_top{
+    display: grid;
+    grid-template-columns: 12fr 1fr;
+    padding: 20px;
+    font-size: 12px;
+    color: white;
+}
+.s_top .red{
+    padding: 1px 7px;
+    line-height: 20px;
+    background: #e0203b;
+    border-radius: 3px ;
+    font-size: 10px;
+    color: #ffffff;
+}
+.s_top .num2{
+    font-size: 16px;
+    width: 40px;
+    line-height: 20px;
+    font-size: 12px;
+    color: #fff;
+    margin-top: -5px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 2px ;
+    border-radius: 3px;
+    visibility: hidden;
+}
+.sold :hover .num2{
+    visibility: visible;
+}
+.s_top i{
+    padding: 5px;
+}
+.s_bottom{
+    font-size: 23px;
+    line-height: 26px;
+    padding: 0px 8px;
+    margin-top: 100px;
+    color: white;
+    float: right;
+    display: none;
+}
+.sold1:hover .s_bottom{
+    display: block;
+}
+.s_bottom i{
+    padding: 10px !important;
+}
+.s_bottom2{
+    margin-top: 120px;
+    padding: 15px;
+    color: white;
+}
+
+.s_bottom2 .sym{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 3fr 1fr;
+
+}
+.s_top3{
+    display: block;
+}
+
+.s_bottom2 .sym .eye{
+    text-align: center;
+    border-radius: 50%;
+    margin-top: -10px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.4);
+}
+.sold2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 350px;
+    column-gap: 30px;
+    padding: 10px 70px;
+    background: url(../images/location_bg.jpg);
+    padding-bottom: 60px;
+}
+
+
+.sold3num{
+
+    font-size: 16px;
+    width: 40px;
+    line-height: 20px;
+    font-size: 12px;
+    color: #fff;
+    margin-top: -5px;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 3px;
+    display: none;
+}
+.sold3_1:hover .sold3num{
+    display: block;
+}
+.s_bottom3{
+    margin-top: 0px;
+    padding: 15px;
+    color: white;
+}
+
+
+.sold3_bottom{
+
+    margin-top: 70px;
+    padding: 15px;
+    padding-left: 280px;
+    color: white;
+    display: none;
+}
+.sold3_bottom i{
+    padding-left: 10px;
+}
+
+
+.sold2 .sym{
+    display: grid;
+    grid-template-columns: 2fr 2fr 3fr 1fr;
+    margin-top: 10px;
+}
+
+.sold2 del{
+    padding-right: 10px;
+}
+.sold3_1{
+    background: url(../images/wall_3.jpg);
+}
+.sold3_2{
+    background: url(../images/indoor_4.jpg);
+}
+.sold3_3{
+    background: url(../images/listing_2.jpg);
+}
+
+    </style>
+</head>
+<body>
+    
+    
+    <div class="sold">
+        <div class="sold1">
+            <div class="bg2"></div>
+            <div class="popular_content">
+                <div class="s_top">
+                    <div class="red">Buy</div>
+                    <div class="num2"><i class="fa-solid fa-camera"></i>19</div>
+                </div>
+                <div class="s_bottom">
+                    <i class="fa-solid fa-house"></i>
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="s_bottom2">
+                    <h4>Appartment in Compton</h4>
+                    <div class="sym">
+                        <del>$24,000</del>
+                        <span>$16,000</span>
+                        <span><i class="fa-solid fa-bed"></i>3 Beds </span>
+                        <span><i class="fa-solid fa-bath"></i>3 Baths </span>
+                        <span><i class="fa-solid fa-bed"></i>2556 Sqft </span>
+                        <span class="eye"><i class="fa-regular fa-eye"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sold1 sold1_1">
+            <div class="bg2"></div>
+                <div class="s_top">
+                    <div class="red">Buy</div>
+                    <div class="num2"><i class="fa-solid fa-camera"></i>19</div>
+                </div>
+                <div class="s_bottom">
+                    <i class="fa-solid fa-house"></i>
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="s_bottom2">
+                    <h4>Appartment in Compton</h4>
+                    <div class="sym">
+                        <del>$24,000</del>
+                        <span>$16,000</span>
+                        <span><i class="fa-solid fa-bed"></i>3 Beds </span>
+                        <span><i class="fa-solid fa-bath"></i>3 Baths </span>
+                        <span><i class="fa-solid fa-bed"></i>2556 Sqft </span>
+                        <span class="eye"><i class="fa-regular fa-eye"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sold2">
+
+
+        <div class="house_one">
+        
+                <div class="recent_image sold3_1">
+                    <div class="bg"></div>
+                    <div class="content_image ">
+                        <div class="buy">
+                            <div class="red">Buy</div>
+                            <div class="num"><i class="fa-solid fa-camera"></i>19</div>
+                        </div>
+                        <div class="buy_bottom">
+                            <i class="fa-solid fa-house"></i>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+
+                </div>
+        </div>  
+
+
+
+
+        <div class="house_one">
+                <!-- <div class="recent_image sold3_2">
+                    <div class="bg"></div>
+                    <div class="content_image ">
+                        <div class="featured_main">
+                            <div class="featured">featured</div>
+                            <div class="red">Buy</div>
+                            <div class="num"><i class="fa-solid fa-camera"></i>19</div>
+                        </div>
+                        <div class="buy_bottom">
+                            <i class="fa-solid fa-house"></i>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                </div> -->
+        </div>
+
+        <div class="house_one">
+        
+            <!-- <div class="recent_image sold3_3">
+                <div class="bg"></div>
+                <div class="content_image ">
+                    <div class="buy">
+                        <div class="red">Buy</div>
+                        <div class="num"><i class="fa-solid fa-camera"></i>19</div>
+                    </div>
+                    <div class="buy_bottom">
+                        <i class="fa-solid fa-house"></i>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="sym">
+                        <span><i class="fa-solid fa-bed"></i>3 Beds </span>
+                        <span><i class="fa-solid fa-bath"></i>3 Baths </span>
+                        <span><i class="fa-solid fa-bed"></i>2556 Sqft </span>
+                        <span class="eye"><i class="fa-regular fa-eye"></i></span>
+                    </div>
+                </div>
+            </div> -->
+
+    </div>  
+
+
+
+
+
+
+
+
+        <div class="sold3_1">
+
+            
+            <div class="sold3_1_1">    
+                <div class="s_top">
+                    <div class="red">Buy</div>
+                    <div class="sold3num"><i class="fa-solid fa-camera"></i>19</div>
+                </div>
+                <div class="sold3_bottom">
+                    <i class="fa-solid fa-house"></i>
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="s_bottom3">
+                    <h4>Appartment in Compton</h4>
+                    <del>$24,000</del>
+                    <span>$16,000</span>
+                    <div class="sym">
+                        <span><i class="fa-solid fa-bed"></i>3 Beds </span>
+                        <span><i class="fa-solid fa-bath"></i>3 Baths </span>
+                        <span><i class="fa-solid fa-bed"></i>2556 Sqft </span>
+                        <span class="eye"><i class="fa-regular fa-eye"></i></span>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+        <div class="sold3_2">
+            <div class="s_top">
+                <div class="red">Buy</div>
+                <div class="num"><i class="fa-solid fa-camera"></i>19</div>
+            </div>
+            <div class="s_bottom">
+                <i class="fa-solid fa-house"></i>
+                <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="s_bottom2">
+                <h4>Appartment in Compton</h4>
+                <del>$24,000</del>
+                <span>$16,000</span>
+                <div class="sym">
+                    <span><i class="fa-solid fa-bed"></i>3 Beds </span>
+                    <span><i class="fa-solid fa-bath"></i>3 Baths </span>
+                    <span><i class="fa-solid fa-bed"></i>2556 Sqft </span>
+                    <span class="eye"><i class="fa-regular fa-eye"></i></span>
+                </div>
+            </div>
+        </div>
+        <div class="sold3_3">
+            <div class="s_top">
+                <div class="red">Buy</div>
+                <div class="num"><i class="fa-solid fa-camera"></i>19</div>
+            </div>
+            <div class="s_bottom">
+                <i class="fa-solid fa-house"></i>
+                <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="s_bottom2">
+                <h4>Appartment in Compton</h4>
+                <del>$24,000</del>
+                <span>$16,000</span>
+                <div class="sym">
+                    <span><i class="fa-solid fa-bed"></i>3 Beds </span>
+                    <span><i class="fa-solid fa-bath"></i>3 Baths </span>
+                    <span><i class="fa-solid fa-bed"></i>2556 Sqft </span>
+                    <span class="eye"><i class="fa-regular fa-eye"></i></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
