@@ -1,0 +1,20 @@
+@media (max-width:550px)
+{
+
+    /* header start  */
+
+    header{
+        position: fixed;
+        top: 100px ;
+        right: 0;
+        width: 100%;
+        float: right;
+        padding: 15px;
+        z-index: 2;
+    }
+
+
+    .button{
+        /* display: none; */
+    }
+    }

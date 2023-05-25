@@ -3,15 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 /* header start  */
-header{
+.media_header{
     position: fixed;
     top: 100px ;
     left: 20px;
     width: 56px;
     padding: 15px;
     z-index: 2;
+}
+header a{
+    text-decoration: none;
+}
+.media{
+    display: none;
 }
 .button{
     width: 56px;
@@ -80,6 +88,9 @@ header{
 .content_logo{
     display: flex;
     margin-top: 30px;
+}
+.content_logo a{
+    color: #45505b;
 }
 .content_logo i{
     padding-right: 20px;
@@ -244,13 +255,17 @@ header{
 .name_email{
     width: 100%;
 }
-.name_email input:hover {
-    outline: 1px solid #0563bb;
+.contact input:focus{
+    outline: 0;
+    border-width: 0 0 1px;
+    border-color: #0563bb;
+  
 }
 .name_email .name{
     padding: 10px;
     width: 40%;
     height: 40px;
+    /* outline: 1px solid #0563bb; */
 }
 .name_email .subject{
     width: 80%;
